@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    document.title = "Damasukma Trihanandi";
+    document.title = "Touseef Ahmad";
     AOS.init();
   }, []);
   return (
