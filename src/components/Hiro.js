@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import profile from "../assets/carbon_profile.png";
+import profile from "../assets/carbon.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -86,7 +86,7 @@ export default function Hiro() {
             </li>
           </ul>
         </div>
-        <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" />
+        {/*  <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" /> */}
       </div>
     </>
   );
