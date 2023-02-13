@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.58880497.css",
-    "main.js": "/static/js/main.e62cdb72.js",
+    "main.js": "/static/js/main.5726920e.js",
     "static/js/787.a7249224.chunk.js": "/static/js/787.a7249224.chunk.js",
     "static/media/resume.pdf": "/static/media/resume.09243a26045e17f24db8.pdf",
+    "static/media/carbon.svg": "/static/media/carbon.66e4a97c41c957aea920447c90c633df.svg",
     "static/media/dicoding-js.png": "/static/media/dicoding-js.0d9f522f2e7d05619f4e.png",
     "static/media/dicoding-aws.png": "/static/media/dicoding-aws.11f75438858fbac4779f.png",
     "static/media/dicoding-network.png": "/static/media/dicoding-network.3ed04d5105ea25a7cadb.png",
@@ -12,7 +13,6 @@
     "static/media/progate-js.png": "/static/media/progate-js.4e4006cbc905d0693fae.png",
     "static/media/progate-htmlcss.png": "/static/media/progate-htmlcss.60406a4a02834b312170.png",
     "static/media/mtcna.jpg": "/static/media/mtcna.2ee5684f51d76ad95490.jpg",
-    "static/media/carbon_profile.png": "/static/media/carbon_profile.307204e59f701af4451b.png",
     "static/media/fcc-responsive.png": "/static/media/fcc-responsive.af4db224df54cb3ca714.png",
     "static/media/logo.svg": "/static/media/logo.bba63c759c3e6abe565c79a721303680.svg",
     "static/media/linux.svg": "/static/media/linux.ff969ad1bae76cb9a7cc6aca65fd15f5.svg",
@@ -37,11 +37,11 @@
     "static/media/windows.svg": "/static/media/windows.680a11acd0ab401f69e83c7caba17dc0.svg",
     "index.html": "/index.html",
     "main.58880497.css.map": "/static/css/main.58880497.css.map",
-    "main.e62cdb72.js.map": "/static/js/main.e62cdb72.js.map",
+    "main.5726920e.js.map": "/static/js/main.5726920e.js.map",
     "787.a7249224.chunk.js.map": "/static/js/787.a7249224.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58880497.css",
-    "static/js/main.e62cdb72.js"
+    "static/js/main.5726920e.js"
   ]
 }
