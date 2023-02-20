@@ -17,13 +17,13 @@ function Introduction() {
           Products or Services].
         </Typography>
         <Typography variant="body1" paragraph>
-          On this website, you'll find a collection of my recent projects,
-          experiences, and skills. I hope you'll enjoy browsing through my work
-          and getting to know me better!
+          On this website, you&apos;ll find a collection of my recent projects,
+          experiences, and skills. I hope you&apos;ll enjoy browsing through my
+          work and getting to know me better!
         </Typography>
         <Typography variant="body1" paragraph>
-          If you're interested in working together or just want to say hi,
-          please don't hesitate to get in touch with me.
+          If you&apos;re interested in working together or just want to say hi,
+          please don&apos;t hesitate to get in touch with me.
         </Typography>
         <Button variant="contained" color="primary" href="/contact">
           Get in Touch
