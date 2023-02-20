@@ -1,36 +1,69 @@
-import Head from "next/head";
-import { Container, Typography, Button } from "@material-ui/core";
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import { Typography, Button, Card, CardContent } from "@material-ui/core";
 
-function Introduction() {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    backgroundColor: theme.palette.background.default,
+    minHeight: "100vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: theme.spacing(4),
+  },
+  card: {
+    maxWidth: 600,
+    margin: "auto",
+  },
+  title: {
+    fontWeight: "bold",
+    marginBottom: theme.spacing(2),
+  },
+  body: {
+    marginBottom: theme.spacing(4),
+  },
+  button: {
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.primary.contrastText,
+    "&:hover": {
+      backgroundColor: theme.palette.primary.dark,
+    },
+  },
+}));
+
+function IntroductionPage() {
+  const classes = useStyles();
+
   return (
-    <div>
-      <Head>
-        <title>My Portfolio - Introduction</title>
-      </Head>
-      <Container maxWidth="sm">
-        <Typography variant="h1" align="center" gutterBottom>
-          Welcome to My Portfolio
-        </Typography>
-        <Typography variant="body1" paragraph>
-          Hi there! My name is [Your Name] and I am a [Your Profession]. I am
-          passionate about [Your Passion or Interest] and I love creating [Your
-          Products or Services].
-        </Typography>
-        <Typography variant="body1" paragraph>
-          On this website, you&apos;ll find a collection of my recent projects,
-          experiences, and skills. I hope you&apos;ll enjoy browsing through my
-          work and getting to know me better!
-        </Typography>
-        <Typography variant="body1" paragraph>
-          If you&apos;re interested in working together or just want to say hi,
-          please don&apos;t hesitate to get in touch with me.
-        </Typography>
-        <Button variant="contained" color="primary" href="/contact">
-          Get in Touch
-        </Button>
-      </Container>
+    <div className={classes.root}>
+      <Card className={classes.card}>
+        <CardContent>
+          <Typography
+            variant="h4"
+            component="h1"
+            align="center"
+            className={classes.title}
+          >
+            Hi, I&apos;m Touseef Ahmad
+          </Typography>
+          <Typography variant="body1" className={classes.body}>
+            As a React JS Developer, I have developed a strong proficiency in
+            creating high-quality web applications using React and related
+            technologies. I am passionate about creating engaging user
+            experiences, and I have honed my skills in building responsive UI
+            components, implementing state management with Redux, and
+            integrating with RESTful APIs. I have a solid understanding of web
+            development principles and best practices, and I am committed to
+            writing clean, maintainable code. I am a collaborative team player
+            who is dedicated to delivering projects on time and within budget.
+          </Typography>
+          <Button variant="contained" className={classes.button}>
+            Contact Me
+          </Button>
+        </CardContent>
+      </Card>
     </div>
   );
 }
 
-export default Introduction;
+export default IntroductionPage;
